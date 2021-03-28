@@ -1,6 +1,7 @@
 import './App.css';
 import GeneralInformation from "./components/GeneralInformation";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import React from "react";
 
 function App() {
@@ -17,8 +18,12 @@ function App() {
             <h2>Professional Experience</h2>
             < Experience/>
         </div>
+        <div className='container-md'>
+            <h2>Education</h2>
+            < Education/>
+        </div>
     </div>
-  );
-};
+  )
+}
 
 export default App;

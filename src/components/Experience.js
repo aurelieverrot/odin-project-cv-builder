@@ -122,8 +122,8 @@ function Experience() {
                         <label className="col-sm-3 col-form-label">Description</label>
                         <p className="col-sm-9">{state.description}</p>
                     </div>
+                    <button onClick={onSubmit} className="btn btn-outline-secondary float-end">Edit</button>
                 </form>
-                <button onClick={onSubmit} className="btn btn-outline-secondary float-end">Edit</button>
             </div>
     )
     }
